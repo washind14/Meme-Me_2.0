@@ -68,14 +68,14 @@
 			children = (
 				AB42C00B2584A48D0011D425 /* AppDelegate.swift */,
 				AB42C00D2584A48D0011D425 /* SceneDelegate.swift */,
+				AB42C0112584A48D0011D425 /* Main.storyboard */,
 				ABEE5FFE25FE8B29009E4504 /* Model */,
-				ABEE5FFB25FE8AE5009E4504 /* View */,
 				ABEE5FF225FE88A3009E4504 /* Controller */,
 				AB42C0142584A48E0011D425 /* Assets.xcassets */,
 				AB42C0162584A48E0011D425 /* LaunchScreen.storyboard */,
 				AB42C0192584A48E0011D425 /* Info.plist */,
 			);
-			path = "Meme-Me_2.0";
+			name = "Meme-Me_2.0";
 			sourceTree = "<group>";
 		};
 		ABEE5FF225FE88A3009E4504 /* Controller */ = {
@@ -87,14 +87,6 @@
 				AB57B54B2614229D00B517B2 /* MemeDetailViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		ABEE5FFB25FE8AE5009E4504 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AB42C0112584A48D0011D425 /* Main.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		ABEE5FFE25FE8B29009E4504 /* Model */ = {
@@ -140,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB42C0032584A48D0011D425 /* Build configuration list for PBXProject "Meme-Me_2.0" */;
+			buildConfigurationList = AB42C0032584A48D0011D425 /* Build configuration list for PBXProject "Meme-Me_2.0 2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -196,6 +188,7 @@
 				AB42C0122584A48D0011D425 /* Base */,
 			);
 			name = Main.storyboard;
+			path = View;
 			sourceTree = "<group>";
 		};
 		AB42C0162584A48E0011D425 /* LaunchScreen.storyboard */ = {
@@ -331,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/Meme-Me_2.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/Meme-Me_2.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB42C0032584A48D0011D425 /* Build configuration list for PBXProject "Meme-Me_2.0" */ = {
+		AB42C0032584A48D0011D425 /* Build configuration list for PBXProject "Meme-Me_2.0 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB42C01A2584A48E0011D425 /* Debug */,
